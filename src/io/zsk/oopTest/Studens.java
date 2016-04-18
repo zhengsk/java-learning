@@ -22,8 +22,13 @@ public class Studens {
         Studens s1 = new Studens();
         s1.name = "zsk";
         s1.study();
-
         s1.sayHello("baibai");
+
+
+        Studens s2 = new Studens();
+        s2.name = "wang";
+        s2.study();
+        s2.sayHello("kaigege");
     }
 
 }
