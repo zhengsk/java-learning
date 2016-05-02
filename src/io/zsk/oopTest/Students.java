@@ -3,7 +3,7 @@ package io.zsk.oopTest;
 /**
  * Created by shaokaizheng on 16/4/17.
  */
-public class Studens {
+public class Students {
     private String name;
     private int id;
     private int age;
@@ -19,13 +19,13 @@ public class Studens {
     }
 
     public static void main(String[] args){
-        Studens s1 = new Studens();
+        Students s1 = new Students();
         s1.name = "zsk";
         s1.study();
         s1.sayHello("baibai");
 
 
-        Studens s2 = new Studens();
+        Students s2 = new Students();
         s2.name = "wang";
         s2.study();
         s2.sayHello("kaigege");
